@@ -1,0 +1,53 @@
+.ambiente-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .ambiente-list li {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .btn-edit,
+  .btn-delete {
+    margin-right: 10px;
+    margin-top: 8px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-edit {
+    background-color: #dd94ff;
+    color: white;
+  }
+  
+  .btn-edit:hover {
+    background-color: #ebc7f0;
+  }
+  
+  .btn-delete {
+    background-color: #ff94ed;
+    color: white;
+  }
+  
+  .btn-delete:hover {
+    background-color: #f5cbf5;
+  }
+  
+  .ambiente-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  

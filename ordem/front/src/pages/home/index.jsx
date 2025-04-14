@@ -10,11 +10,17 @@ export default function Home() {
                 <p className="home-subtitle">Gerencie informações de forma rápida e eficiente.</p>
 
                 <div className="home-buttons">
-                    <button className="btn-home" onClick={() => window.location.href = "/professores"}>
-                        Ver Professores
+                <button className="btn-home" onClick={() => window.location.href = "/cadastrar"}>
+                        Patrimonios
+                    </button>
+                    <button className="btn-home" onClick={() => window.location.href = "/ambientes"}>
+                        ambientes
                     </button>
                     <button className="btn-home" onClick={() => window.location.href = "/cadastrar"}>
-                        Cadastrar Novo
+                        Manutentores
+                    </button>
+                    <button className="btn-home" onClick={() => window.location.href = "/cadastrar"}>
+                        Gestores
                     </button>
                     
                 </div>

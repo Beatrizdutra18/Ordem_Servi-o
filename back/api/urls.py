@@ -8,7 +8,9 @@ from rest_framework_simplejwt.views import (
 urlpatterns = [
 
     path('patrimonios', PatrimoniosView.as_view()),
+    path('patrimonios/id/<int:pk>', PatrimoniosDetailView.as_view()),
     path('ambientes', AmbientesView.as_view()),
+    path('ambientes/id/<int:pk>', AmbientesDetailView.as_view()),
     path('manutentores', ManutentoresView.as_view()),
     path('gestor', GestorView.as_view()),
     path('ordemServico', OrdemServicoView.as_view()),
