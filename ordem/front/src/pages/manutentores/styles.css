@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0e7ff, #ffe5ec);
+}
+
+.main-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.home-container {
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+.ambiente-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.ambiente-list li {
+  background: #f9f9ff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(168, 85, 247, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.ambiente-list li:hover {
+  transform: scale(1.02);
+}
+
+.ambiente-list strong {
+  color: #4b5563;
+}
+
+.btn-edit,
+.btn-delete {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-edit {
+  background-color: #c084fc;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #e9d5ff;
+  transform: translateY(-2px);
+}
+
+.btn-delete {
+  background-color: #f472b6;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #fbcfe8;
+  transform: translateY(-2px);
+}
+
+.ambiente-form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+
+.btn-home {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #ec4899, #a855f7);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-home:hover {
+  background: linear-gradient(135deg, #f472b6, #c084fc);
+  transform: scale(1.02);
+}
